@@ -686,6 +686,27 @@
       "description": "40N",
       "shape_type": "linestrip",
       "flags": {}
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          737.25,
+          2892.5
+        ],
+        [
+          742.0,
+          1965.75
+        ],
+        [
+          2031.0,
+          1961.75
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {}
     }
   ],
   "imagePath": "07-44京师（北直隶）.jpg",

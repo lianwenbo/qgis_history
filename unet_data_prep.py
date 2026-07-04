@@ -21,9 +21,15 @@ class UNetDataPreparer:
         self.masks_dir.mkdir(parents=True, exist_ok=True)
     
     def _create_mask(self, shapes, img_shape):
-        """从标注创建语义分割图 (0=背景, 1=经线, 2=纬线)"""
+        """从标注创建语义分割图 (0=背景, 1=经线, 2=纬线, 3=分隔线)"""
         h, w = img_shape[:2]
         mask = np.zeros((h, w), dtype=np.uint8)
+        
+        label_map = {
+            'vertical_line': 1,
+            'horizontal_arc': 2,
+            'splitter': 3
+        }
         
         for shape in shapes:
             label = shape.get('label', '')
@@ -33,46 +39,40 @@ class UNetDataPreparer:
             if len(points) < 2:
                 continue
             
-            points_array = np.array(points, dtype=np.int32)
-            
-            # 根据标签决定像素值
-            if label == 'vertical_line':
-                pixel_value = 1
-            elif label == 'horizontal_arc':
-                pixel_value = 2
-            else:
+            if label not in label_map:
                 continue
             
-            # 绘制线条 (宽度5像素，确保线条足够宽以便学习)
+            pixel_value = label_map[label]
+            points_array = np.array(points, dtype=np.int32)
+            
+            thickness = 6 if label == 'splitter' else 3
+            
             if shape_type == 'line' and len(points_array) == 2:
                 cv2.line(mask, 
                         tuple(points_array[0]), 
                         tuple(points_array[1]), 
                         pixel_value, 
-                        thickness=3)
+                        thickness=thickness)
             elif shape_type in ['polygon', 'linestrip'] and len(points_array) > 2:
-                # 折线/多边形：分段画线
                 for i in range(len(points_array) - 1):
                     cv2.line(mask,
                             tuple(points_array[i]),
                             tuple(points_array[i + 1]),
                             pixel_value,
-                            thickness=3)
-                # 闭合多边形
+                            thickness=thickness)
                 if shape_type == 'polygon':
                     cv2.line(mask,
                             tuple(points_array[-1]),
                             tuple(points_array[0]),
                             pixel_value,
-                            thickness=3)
+                            thickness=thickness)
             else:
-                # 多段线
                 for i in range(len(points_array) - 1):
                     cv2.line(mask,
                             tuple(points_array[i]),
                             tuple(points_array[i + 1]),
                             pixel_value,
-                            thickness=3)
+                            thickness=thickness)
         
         return mask
     

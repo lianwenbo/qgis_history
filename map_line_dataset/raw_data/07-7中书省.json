@@ -789,6 +789,31 @@
       "description": "34N",
       "shape_type": "linestrip",
       "flags": {}
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          5.75,
+          1162.0
+        ],
+        [
+          919.5,
+          1159.25
+        ],
+        [
+          1232.25,
+          849.25
+        ],
+        [
+          1232.25,
+          4.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {}
     }
   ],
   "imagePath": "07-7中书省.jpg",

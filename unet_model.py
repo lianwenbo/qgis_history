@@ -79,10 +79,10 @@ class UNet(nn.Module):
     
     Args:
         n_channels: 输入通道数 (3=RGB)
-        n_classes: 输出类别数 (3=背景/经线/纬线)
+        n_classes: 输出类别数 (4=背景/经线/纬线/分隔线)
     """
     
-    def __init__(self, n_channels=3, n_classes=3):
+    def __init__(self, n_channels=3, n_classes=4):
         super().__init__()
         self.n_channels = n_channels
         self.n_classes = n_classes
@@ -209,11 +209,11 @@ def train_unet(data_dir, model_path='models/unet_map_lines.pth',
     dataloader = DataLoader(dataset, batch_size=batch_size, shuffle=True, num_workers=0)
     
     # 模型
-    model = UNet(n_channels=3, n_classes=3).to(device)
+    model = UNet(n_channels=3, n_classes=4).to(device)
     
     # 损失函数 + 优化器
-    # 使用加权交叉熵：经线/纬线的像素远少于背景
-    class_weights = torch.tensor([1.0, 50.0, 50.0]).to(device)  # 背景/经线/纬线
+    # 使用加权交叉熵：经线/纬线/分隔线的像素远少于背景
+    class_weights = torch.tensor([1.0, 50.0, 50.0, 80.0]).to(device)  # 背景/经线/纬线/分隔线
     criterion = nn.CrossEntropyLoss(weight=class_weights)
     optimizer = torch.optim.Adam(model.parameters(), lr=lr)
     
@@ -271,7 +271,7 @@ def train_unet(data_dir, model_path='models/unet_map_lines.pth',
 # ============================================================
 
 def predict_unet(model_path, image_path, output_dir='output', img_size=512):
-    """用训练好的 UNet 预测经纬线
+    """用训练好的 UNet 预测经纬线和分隔线
     
     Args:
         model_path: 模型权重路径
@@ -283,7 +283,7 @@ def predict_unet(model_path, image_path, output_dir='output', img_size=512):
                           'cuda' if torch.cuda.is_available() else 'cpu')
     
     # 加载模型
-    model = UNet(n_channels=3, n_classes=3).to(device)
+    model = UNet(n_channels=3, n_classes=4).to(device)
     checkpoint = torch.load(model_path, map_location=device)
     model.load_state_dict(checkpoint['model_state_dict'])
     model.eval()
@@ -320,13 +320,17 @@ def predict_unet(model_path, image_path, output_dir='output', img_size=512):
     # 创建可视化结果
     result = img.copy()
     
-    # 经线 (蓝色)
+    # 经线 (红色)
     vertical_mask = (pred_mask_full == 1)
     result[vertical_mask] = [0, 0, 255]  # BGR: 红色
     
     # 纬线 (绿色)
     horizontal_mask = (pred_mask_full == 2)
     result[horizontal_mask] = [0, 255, 0]  # BGR: 绿色
+    
+    # 分隔线 (橙色)
+    splitter_mask = (pred_mask_full == 3)
+    result[splitter_mask] = [0, 165, 255]  # BGR: 橙色
     
     # 保存
     Path(output_dir).mkdir(parents=True, exist_ok=True)
@@ -339,7 +343,8 @@ def predict_unet(model_path, image_path, output_dir='output', img_size=512):
     # 打印统计
     n_vertical = int(vertical_mask.sum())
     n_horizontal = int(horizontal_mask.sum())
-    print(f"经线像素: {n_vertical}, 纬线像素: {n_horizontal}")
+    n_splitter = int(splitter_mask.sum())
+    print(f"经线像素: {n_vertical}, 纬线像素: {n_horizontal}, 分隔线像素: {n_splitter}")
     print(f"结果保存: {output_dir}/unet_{output_name}.jpg")
     
     return result

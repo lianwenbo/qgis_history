@@ -635,6 +635,27 @@
       "description": "41N",
       "shape_type": "linestrip",
       "flags": {}
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          1323.75,
+          2888.25
+        ],
+        [
+          1328.5,
+          2085.75
+        ],
+        [
+          2027.0,
+          2085.0
+        ]
+      ],
+      "group_id": null,
+      "description": "",
+      "shape_type": "linestrip",
+      "flags": {}
     }
   ],
   "imagePath": "06-8东京道.jpg",
