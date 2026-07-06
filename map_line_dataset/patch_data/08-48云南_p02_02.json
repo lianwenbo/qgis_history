@@ -1,0 +1,114 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          31.00390511161629,
+          0.0
+        ],
+        [
+          10.233840414990937,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          269.3228655544651,
+          0.0
+        ],
+        [
+          253.5793261367353,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          505.7302086976798,
+          0.0
+        ],
+        [
+          495.07473475574204,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          75.0337552742617
+        ],
+        [
+          28.0,
+          76.33333333333337
+        ],
+        [
+          267.0,
+          85.33333333333337
+        ],
+        [
+          503.66666666666663,
+          93.0
+        ],
+        [
+          512.0,
+          93.12838468720827
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          340.1826167360148
+        ],
+        [
+          17.33333333333337,
+          341.0
+        ],
+        [
+          259.0,
+          350.33333333333337
+        ],
+        [
+          498.33333333333337,
+          357.0
+        ],
+        [
+          512.0,
+          357.20792992162285
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "08-48云南_p02_02.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

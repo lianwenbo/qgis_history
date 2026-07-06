@@ -1,0 +1,102 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.0,
+          314.998198389148
+        ],
+        [
+          45.2333317111154,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          133.74320286824013,
+          0.0
+        ],
+        [
+          266.37063041529746,
+          512.0000000000002
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          343.9678001805596,
+          0.0
+        ],
+        [
+          464.5,
+          417.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          263.79999999999995
+        ],
+        [
+          192.0,
+          217.0
+        ],
+        [
+          392.5,
+          165.25
+        ],
+        [
+          467.0,
+          142.75
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          146.4497549019609,
+          512.0
+        ],
+        [
+          261.25,
+          483.75
+        ],
+        [
+          468.25,
+          427.25
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p05_06.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

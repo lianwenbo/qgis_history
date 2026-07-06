@@ -1,0 +1,46 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          265.75,
+          40.75
+        ],
+        [
+          263.73701663669067,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          434.41129032258067
+        ],
+        [
+          264.0,
+          437.25
+        ],
+        [
+          512.0,
+          436.35791366906477
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p00_01.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

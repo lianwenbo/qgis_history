@@ -1,0 +1,150 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          185.0,
+          37.75
+        ],
+        [
+          191.72073321010475,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          211.5,
+          286.25
+        ],
+        [
+          263.33416877554987,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          323.5,
+          36.0
+        ],
+        [
+          446.8020615476546,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          496.25,
+          35.5
+        ],
+        [
+          512.0,
+          89.98958875585632
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          433.2810979847116
+        ],
+        [
+          203.25,
+          429.75
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          211.75,
+          208.25
+        ],
+        [
+          358.75,
+          170.75
+        ],
+        [
+          512.0,
+          128.40152671755726
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          211.5,
+          489.25
+        ],
+        [
+          256.75,
+          479.25
+        ],
+        [
+          427.75,
+          437.5
+        ],
+        [
+          512.0,
+          413.85087719298247
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          208.25,
+          512.0
+        ],
+        [
+          208.25,
+          4.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p00_04.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

@@ -1,0 +1,66 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          8.869141619969469,
+          0.0
+        ],
+        [
+          23.605769230769056,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          333.28681997706735,
+          0.0
+        ],
+        [
+          353.0518855905211,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          326.29701834862385
+        ],
+        [
+          18.5,
+          326.0
+        ],
+        [
+          345.75,
+          315.75
+        ],
+        [
+          512.0,
+          309.371103117506
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "06-12京西南路_p03_09.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

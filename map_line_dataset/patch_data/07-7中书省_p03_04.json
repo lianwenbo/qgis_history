@@ -1,0 +1,174 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          195.3485828712262,
+          0.0
+        ],
+        [
+          196.5,
+          81.25
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.25,
+          290.75
+        ],
+        [
+          38.33502502780857,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          161.75,
+          131.0
+        ],
+        [
+          238.2323664707385,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          322.114001362663,
+          0.0
+        ],
+        [
+          439.6736665368892,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          123.52880000000005
+        ],
+        [
+          158.5,
+          121.5
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          210.75,
+          1.5
+        ],
+        [
+          217.34693877551013,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          323.0391061452515
+        ],
+        [
+          6.0,
+          322.0
+        ],
+        [
+          193.75,
+          286.0
+        ],
+        [
+          381.25,
+          244.75
+        ],
+        [
+          512.0,
+          213.33489932885902
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          438.62111801242236,
+          512.0
+        ],
+        [
+          442.25,
+          511.25
+        ],
+        [
+          512.0,
+          494.46332046332054
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          0.0,
+          287.6688649080736
+        ],
+        [
+          208.25,
+          81.25
+        ],
+        [
+          208.25,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p03_04.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

@@ -1,0 +1,46 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          202.04653389505938,
+          -1.1368683772161603e-13
+        ],
+        [
+          223.35535554704438,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          376.0566139468008
+        ],
+        [
+          218.75,
+          367.25
+        ],
+        [
+          512.0,
+          353.6500000000001
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-68浙江_p04_08.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

@@ -1,0 +1,90 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          170.21628582749963,
+          0.0
+        ],
+        [
+          184.48547087571,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          449.7946805702218,
+          0.0
+        ],
+        [
+          469.1230860612461,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          54.9276785714286
+        ],
+        [
+          171.0,
+          50.5
+        ],
+        [
+          451.0,
+          41.5
+        ],
+        [
+          512.0,
+          38.83837934105077
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          384.05572687224674
+        ],
+        [
+          181.0,
+          379.75
+        ],
+        [
+          464.0,
+          369.75
+        ],
+        [
+          512.0,
+          367.54894179894177
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-19四川行省_p02_06.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

@@ -1,0 +1,126 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.25,
+          34.75
+        ],
+        [
+          82.4017658509456,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          186.84263991822127,
+          0.0
+        ],
+        [
+          289.62209302325573,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          380.8938339497761,
+          -1.1368683772161603e-13
+        ],
+        [
+          498.4534991240023,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          67.03910614525148
+        ],
+        [
+          6.0,
+          66.0
+        ],
+        [
+          193.75,
+          30.0
+        ],
+        [
+          330.1136363636365,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          341.5982824427481
+        ],
+        [
+          51.75,
+          333.5
+        ],
+        [
+          247.5,
+          295.5
+        ],
+        [
+          442.25,
+          255.25
+        ],
+        [
+          512.0,
+          238.46332046332054
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          0.0,
+          31.6688649080736
+        ],
+        [
+          31.949798387096735,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p04_04.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

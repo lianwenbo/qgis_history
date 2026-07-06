@@ -1,0 +1,118 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          261.54996627697847,
+          0.0
+        ],
+        [
+          261.0,
+          128.75
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          12.25,
+          139.75
+        ],
+        [
+          35.52591800619376,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          205.75,
+          144.25
+        ],
+        [
+          238.40146254985967,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          397.0,
+          139.0
+        ],
+        [
+          440.59454679439943,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          428.6488693467336
+        ],
+        [
+          31.25,
+          427.0
+        ],
+        [
+          229.75,
+          411.75
+        ],
+        [
+          427.0,
+          390.25
+        ],
+        [
+          512.0,
+          378.9888535031846
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          -2.842170943040401e-14,
+          137.24685362517107
+        ],
+        [
+          512.0,
+          135.70595075239407
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p04_01.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

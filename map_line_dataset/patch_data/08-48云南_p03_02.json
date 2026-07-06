@@ -1,0 +1,114 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          20.61887276330367,
+          0.0
+        ],
+        [
+          0.0,
+          508.2729885057472
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          261.4510958456002,
+          0.0
+        ],
+        [
+          245.7075564278705,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          500.4024717267109,
+          0.0
+        ],
+        [
+          489.74699778477316,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          84.18261673601478
+        ],
+        [
+          17.33333333333337,
+          85.0
+        ],
+        [
+          259.0,
+          94.33333333333337
+        ],
+        [
+          498.33333333333337,
+          101.0
+        ],
+        [
+          512.0,
+          101.20792992162285
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          349.7295684113865
+        ],
+        [
+          6.333333333333371,
+          350.0
+        ],
+        [
+          250.33333333333337,
+          360.33333333333326
+        ],
+        [
+          493.66666666666663,
+          367.0
+        ],
+        [
+          512.0,
+          367.40348464007343
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "08-48云南_p03_02.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

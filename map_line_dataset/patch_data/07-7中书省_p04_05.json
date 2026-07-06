@@ -1,0 +1,118 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.0,
+          344.5101845957988
+        ],
+        [
+          33.62209302325573,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          124.89383394977608,
+          -1.1368683772161603e-13
+        ],
+        [
+          242.4534991240023,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          323.4294890947117,
+          0.0
+        ],
+        [
+          456.0569166417688,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          16.305000000000064
+        ],
+        [
+          74.11363636363649,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          293.74326059050054
+        ],
+        [
+          186.25,
+          255.25
+        ],
+        [
+          380.5,
+          208.5
+        ],
+        [
+          512.0,
+          172.62075718015672
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          288.0,
+          512.0
+        ],
+        [
+          448.0,
+          473.0
+        ],
+        [
+          512.0,
+          456.4812967581047
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p04_05.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

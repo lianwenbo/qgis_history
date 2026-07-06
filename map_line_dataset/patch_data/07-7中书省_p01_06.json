@@ -1,0 +1,126 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.0,
+          507.69261822376006
+        ],
+        [
+          1.1157753211832642,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          47.984652422509726,
+          0.0
+        ],
+        [
+          195.97622630153478,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          229.44072433559154,
+          0.0
+        ],
+        [
+          393.259379885357,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          414.00104602510464,
+          -2.842170943040401e-14
+        ],
+        [
+          461.5,
+          136.5
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          157.85087719298247
+        ],
+        [
+          86.75,
+          133.5
+        ],
+        [
+          256.0,
+          81.5
+        ],
+        [
+          422.75,
+          26.0
+        ],
+        [
+          464.75,
+          11.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          441.37222222222226
+        ],
+        [
+          164.0,
+          396.5
+        ],
+        [
+          339.5,
+          341.75
+        ],
+        [
+          466.0,
+          300.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p01_06.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

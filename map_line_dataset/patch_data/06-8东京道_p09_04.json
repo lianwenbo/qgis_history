@@ -1,0 +1,126 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          16.570231444533192,
+          0.0
+        ],
+        [
+          18.34091513700446,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          493.44846705805617,
+          0.0
+        ],
+        [
+          486.6017612524463,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          79.99540441176487
+        ],
+        [
+          0.5,
+          80.0
+        ],
+        [
+          173.5,
+          76.25
+        ],
+        [
+          302.25,
+          70.25
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          312.25,
+          17.25
+        ],
+        [
+          421.25,
+          18.5
+        ],
+        [
+          506.25,
+          19.0
+        ],
+        [
+          512.0,
+          19.026579352850604
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          310.75,
+          293.75
+        ],
+        [
+          434.5,
+          295.75
+        ],
+        [
+          512.0,
+          294.98645320197056
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          300.1776479750779,
+          512.0
+        ],
+        [
+          303.20817757009354,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "06-8东京道_p09_04.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

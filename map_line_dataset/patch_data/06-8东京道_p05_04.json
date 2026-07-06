@@ -1,0 +1,70 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          13.028864059590205,
+          0.0
+        ],
+        [
+          14.799547752061699,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          334.4197345890411,
+          0.0
+        ],
+        [
+          363.66435298434453,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          178.6836734693877
+        ],
+        [
+          13.0,
+          178.75
+        ],
+        [
+          204.0,
+          174.5
+        ],
+        [
+          343.25,
+          167.75
+        ],
+        [
+          512.0,
+          155.25841184387627
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "06-8东京道_p05_04.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

@@ -1,0 +1,106 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          213.39223679546262,
+          0.0
+        ],
+        [
+          160.4408011343495,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          496.6854881617452,
+          0.0
+        ],
+        [
+          470.98787354792944,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          149.234375,
+          0.0
+        ],
+        [
+          212.75,
+          7.5
+        ],
+        [
+          354.25,
+          19.75
+        ],
+        [
+          495.75,
+          29.0
+        ],
+        [
+          512.0,
+          29.45774647887322
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          441.4062974203339
+        ],
+        [
+          27.25,
+          445.5
+        ],
+        [
+          165.75,
+          461.0
+        ],
+        [
+          274.5,
+          471.75
+        ],
+        [
+          374.75,
+          479.0
+        ],
+        [
+          471.75,
+          484.75
+        ],
+        [
+          512.0,
+          486.9375
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "06-8东京道_p02_01.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

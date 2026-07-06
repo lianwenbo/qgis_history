@@ -1,0 +1,90 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          168.73536450125494,
+          0.0
+        ],
+        [
+          177.79017101500017,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          404.9251296393404,
+          0.0
+        ],
+        [
+          418.9758200780748,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          98.91760299625469
+        ],
+        [
+          170.66666666666674,
+          97.0
+        ],
+        [
+          407.3333333333335,
+          91.66666666666663
+        ],
+        [
+          512.0,
+          89.02059925093624
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          362.9735744089013
+        ],
+        [
+          175.0,
+          362.0
+        ],
+        [
+          415.0,
+          357.66666666666663
+        ],
+        [
+          512.0,
+          354.96471680594243
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "08-48云南_p02_07.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

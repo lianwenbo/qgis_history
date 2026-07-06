@@ -1,0 +1,90 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          158.51795939614794,
+          0.0
+        ],
+        [
+          162.11608537220195,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          455.57641779396454,
+          0.0
+        ],
+        [
+          464.0342741935483,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          63.11209068010078
+        ],
+        [
+          160.0,
+          61.5
+        ],
+        [
+          457.0,
+          56.75
+        ],
+        [
+          512.0,
+          55.01149425287355
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          457.4600997506234
+        ],
+        [
+          161.75,
+          456.25
+        ],
+        [
+          463.25,
+          451.25
+        ],
+        [
+          512.0,
+          450.0468904244817
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-44京师（北直隶）_p01_05.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

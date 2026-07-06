@@ -1,0 +1,118 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.0,
+          341.7810810810811
+        ],
+        [
+          20.160371318821944,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          151.94700268989345,
+          0.0
+        ],
+        [
+          226.12043678749842,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          346.01908963148026,
+          0.0
+        ],
+        [
+          433.8841739537788,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          7.861111111111086
+        ],
+        [
+          61.90625,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          283.1554140127389
+        ],
+        [
+          189.75,
+          258.5
+        ],
+        [
+          385.75,
+          228.25
+        ],
+        [
+          512.0,
+          204.85604900459418
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          343.42008196721326,
+          512.0
+        ],
+        [
+          431.5,
+          498.75
+        ],
+        [
+          512.0,
+          484.15937499999995
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "08-52新疆_p02_09.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

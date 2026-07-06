@@ -1,0 +1,142 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          144.41483516483527,
+          0.0
+        ],
+        [
+          147.22802197802207,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          290.56766917293226,
+          0.0
+        ],
+        [
+          298.26691729323306,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          436.63677877645705,
+          0.0
+        ],
+        [
+          449.5518266164106,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          102.48604060913704
+        ],
+        [
+          145.0,
+          101.75
+        ],
+        [
+          292.5,
+          99.25
+        ],
+        [
+          439.0,
+          95.75
+        ],
+        [
+          512.0,
+          93.41498316498337
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          299.74458333333314
+        ],
+        [
+          146.75,
+          299.5
+        ],
+        [
+          295.0,
+          296.75
+        ],
+        [
+          444.5,
+          293.75
+        ],
+        [
+          512.0,
+          291.7148241206032
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          495.9844006568146
+        ],
+        [
+          147.5,
+          495.5
+        ],
+        [
+          298.0,
+          493.75
+        ],
+        [
+          449.0,
+          490.0
+        ],
+        [
+          512.0,
+          487.8882681564246
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-44京师（北直隶）_p09_05.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

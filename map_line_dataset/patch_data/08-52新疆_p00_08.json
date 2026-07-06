@@ -1,0 +1,106 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          0.0,
+          230.24435028248587
+        ],
+        [
+          25.522389969293727,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          166.25,
+          96.0
+        ],
+        [
+          215.52016645326512,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          347.5,
+          94.75
+        ],
+        [
+          407.94700268989345,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          272.0329931972789
+        ],
+        [
+          4.0,
+          271.75
+        ],
+        [
+          185.0,
+          253.5
+        ],
+        [
+          367.5,
+          229.0
+        ],
+        [
+          512.0,
+          206.73865199449793
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          317.90625,
+          512.0
+        ],
+        [
+          406.5,
+          500.75
+        ],
+        [
+          512.0,
+          484.12152317880793
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "08-52新疆_p00_08.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

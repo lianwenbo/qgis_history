@@ -1,0 +1,114 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          82.05681818181819,
+          0.0
+        ],
+        [
+          100.04028925619835,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          275.51883940421766,
+          0.0
+        ],
+        [
+          307.53299660816987,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          471.67196040774115,
+          0.0
+        ],
+        [
+          512.0,
+          454.21048252911805
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          38.74999999999997,
+          183.8888888888889
+        ],
+        [
+          88.25,
+          181.5
+        ],
+        [
+          287.25,
+          171.0
+        ],
+        [
+          485.75,
+          155.75
+        ],
+        [
+          512.0,
+          152.888783269962
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          43.5,
+          457.75
+        ],
+        [
+          98.0,
+          456.0
+        ],
+        [
+          304.0,
+          444.75
+        ],
+        [
+          509.5,
+          428.5
+        ],
+        [
+          512.0,
+          428.2466422466423
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p05_00.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

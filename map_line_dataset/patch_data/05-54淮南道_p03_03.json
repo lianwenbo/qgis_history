@@ -1,0 +1,90 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          131.93915588416507,
+          0.0
+        ],
+        [
+          128.75,
+          485.25
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          363.95295809367303,
+          0.0
+        ],
+        [
+          364.75,
+          485.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          109.06755319148931
+        ],
+        [
+          135.5,
+          109.5
+        ],
+        [
+          368.5,
+          109.75
+        ],
+        [
+          512.0,
+          108.05814576634509
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          381.0640756302521
+        ],
+        [
+          133.75,
+          382.75
+        ],
+        [
+          367.75,
+          381.25
+        ],
+        [
+          512.0,
+          379.7219279661017
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "05-54淮南道_p03_03.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

@@ -1,0 +1,118 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          8.116091190792417,
+          0.0
+        ],
+        [
+          0.0,
+          383.56171548117163
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          317.2298203358938,
+          0.0
+        ],
+        [
+          312.25,
+          425.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          336.75,
+          465.75
+        ],
+        [
+          335.1940255220418,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          480.75,
+          465.25
+        ],
+        [
+          479.6539797395079,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          342.6638755980862
+        ],
+        [
+          3.0,
+          342.75
+        ],
+        [
+          313.5,
+          349.5
+        ],
+        [
+          512.0,
+          349.97792937399686
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          229.5784326949015,
+          512.0
+        ],
+        [
+          230.0,
+          429.75
+        ],
+        [
+          512.0,
+          428.87490302560127
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-44京师（北直隶）_p06_02.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

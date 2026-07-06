@@ -1,0 +1,122 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          141.63295401270085,
+          0.0
+        ],
+        [
+          63.64258619954825,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          329.20372501385157,
+          0.0
+        ],
+        [
+          264.7645654860845,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          512.0,
+          22.265625
+        ],
+        [
+          463.76763272634,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          454.7441860465117,
+          0.0
+        ],
+        [
+          512.0,
+          6.763736263736291
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          213.1464143426295
+        ],
+        [
+          106.5,
+          231.25
+        ],
+        [
+          296.75,
+          257.5
+        ],
+        [
+          487.0,
+          280.0
+        ],
+        [
+          512.0,
+          282.17105263157896
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          490.3475765306123
+        ],
+        [
+          65.75,
+          501.25
+        ],
+        [
+          141.47991071428572,
+          512.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "08-52新疆_p01_01.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

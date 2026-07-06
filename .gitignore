@@ -17,4 +17,7 @@ labels.cache
 
 map_line_dataset/unet_format/
 map_line_dataset/yolo_format/
+map_line_dataset/patch_masks/
+output_old_resize
 models/
+*.zip

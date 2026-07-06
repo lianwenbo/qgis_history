@@ -1,0 +1,114 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          145.82142857142867,
+          0.0
+        ],
+        [
+          147.5,
+          305.5
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          294.4172932330828,
+          0.0
+        ],
+        [
+          299.0,
+          304.75
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          443.0943026964337,
+          0.0
+        ],
+        [
+          450.75,
+          303.5
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          43.74458333333314
+        ],
+        [
+          146.75,
+          43.5
+        ],
+        [
+          295.0,
+          40.75
+        ],
+        [
+          444.5,
+          37.75
+        ],
+        [
+          512.0,
+          35.714824120603225
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          239.9844006568146
+        ],
+        [
+          147.5,
+          239.5
+        ],
+        [
+          298.0,
+          237.75
+        ],
+        [
+          449.0,
+          234.0
+        ],
+        [
+          512.0,
+          231.8882681564246
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-44京师（北直隶）_p10_05.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

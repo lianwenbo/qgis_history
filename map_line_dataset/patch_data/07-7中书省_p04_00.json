@@ -1,0 +1,118 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          164.0678391959799,
+          0.0
+        ],
+        [
+          162.5,
+          130.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          78.0,
+          140.5
+        ],
+        [
+          91.04855371900827,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          268.25,
+          139.75
+        ],
+        [
+          291.52591800619376,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          461.75,
+          144.25
+        ],
+        [
+          494.4014625498597,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          38.74999999999997,
+          439.8888888888889
+        ],
+        [
+          88.25,
+          437.5
+        ],
+        [
+          287.25,
+          427.0
+        ],
+        [
+          485.75,
+          411.75
+        ],
+        [
+          512.0,
+          408.888783269962
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          5.75,
+          138.0
+        ],
+        [
+          512.0,
+          136.47640218878246
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-7中书省_p04_00.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

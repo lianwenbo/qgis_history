@@ -1,0 +1,106 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          101.99977601433511,
+          0.0
+        ],
+        [
+          89.94192371688212,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          342.32170294494233,
+          -1.1368683772161603e-13
+        ],
+        [
+          339.8960947503201,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          39.52375296912123
+        ],
+        [
+          104.25,
+          42.0
+        ],
+        [
+          233.25,
+          45.25
+        ],
+        [
+          345.25,
+          46.0
+        ],
+        [
+          477.25,
+          47.0
+        ],
+        [
+          512.0,
+          46.68623024830708
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          311.35767590618343
+        ],
+        [
+          98.25,
+          314.5
+        ],
+        [
+          239.0,
+          318.0
+        ],
+        [
+          345.75,
+          319.75
+        ],
+        [
+          467.0,
+          319.5
+        ],
+        [
+          512.0,
+          319.1414342629482
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "05-89吴越_p04_01.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

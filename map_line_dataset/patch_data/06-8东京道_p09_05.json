@@ -1,0 +1,134 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          237.44846705805617,
+          0.0
+        ],
+        [
+          230.6017612524463,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          442.1074690150033,
+          0.0
+        ],
+        [
+          439.93656229615135,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          72.4053398058254
+        ],
+        [
+          46.25,
+          70.25
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          56.25,
+          17.25
+        ],
+        [
+          165.25,
+          18.5
+        ],
+        [
+          250.25,
+          19.0
+        ],
+        [
+          412.5,
+          19.75
+        ],
+        [
+          500.75,
+          18.5
+        ],
+        [
+          512.0,
+          18.5
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          54.75,
+          293.75
+        ],
+        [
+          178.5,
+          295.75
+        ],
+        [
+          280.0,
+          294.75
+        ],
+        [
+          401.0,
+          295.25
+        ],
+        [
+          512.0,
+          294.5213347921226
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          44.17764797507789,
+          512.0
+        ],
+        [
+          47.20817757009354,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "06-8东京道_p09_05.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

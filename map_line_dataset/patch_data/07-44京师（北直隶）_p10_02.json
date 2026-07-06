@@ -1,0 +1,122 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          317.96896751740144,
+          0.0
+        ],
+        [
+          307.75,
+          303.75
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          467.65050651230104,
+          0.0
+        ],
+        [
+          460.5,
+          305.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          97.67259414225964
+        ],
+        [
+          224.0,
+          100.25
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          262.75,
+          33.5
+        ],
+        [
+          317.25,
+          34.75
+        ],
+        [
+          467.0,
+          39.0
+        ],
+        [
+          512.0,
+          39.9848484848485
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          259.25,
+          230.0
+        ],
+        [
+          310.25,
+          230.75
+        ],
+        [
+          462.0,
+          235.5
+        ],
+        [
+          512.0,
+          236.49502487562177
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          225.25,
+          332.5
+        ],
+        [
+          226.9542082546534,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-44京师（北直隶）_p10_02.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

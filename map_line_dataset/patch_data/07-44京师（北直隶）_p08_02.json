@@ -1,0 +1,122 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          335.1940255220418,
+          0.0
+        ],
+        [
+          317.96896751740144,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          479.6539797395079,
+          0.0
+        ],
+        [
+          467.65050651230104,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          219.60845986984805
+        ],
+        [
+          224.25,
+          223.5
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          261.75,
+          150.75
+        ],
+        [
+          329.75,
+          152.5
+        ],
+        [
+          476.25,
+          156.75
+        ],
+        [
+          512.0,
+          157.67776816609012
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          260.25,
+          348.5
+        ],
+        [
+          323.25,
+          350.0
+        ],
+        [
+          471.25,
+          354.25
+        ],
+        [
+          512.0,
+          355.28954081632673
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "splitter",
+      "points": [
+        [
+          226.9542082546534,
+          512.0
+        ],
+        [
+          229.5784326949015,
+          0.0
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "07-44京师（北直隶）_p08_02.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}

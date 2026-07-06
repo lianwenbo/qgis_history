@@ -1,0 +1,106 @@
+{
+  "version": "5.2.1",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          74.07273948075203,
+          0.0
+        ],
+        [
+          81.40666965085052,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "vertical_line",
+      "points": [
+        [
+          319.15687403993866,
+          0.0
+        ],
+        [
+          335.80408346134163,
+          512.0
+        ]
+      ],
+      "shape_type": "line",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          63.14143426294822
+        ],
+        [
+          80.5,
+          62.5
+        ],
+        [
+          212.5,
+          60.0
+        ],
+        [
+          327.5,
+          57.0
+        ],
+        [
+          444.25,
+          53.5
+        ],
+        [
+          512.0,
+          50.83791748526528
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    },
+    {
+      "label": "horizontal_arc",
+      "points": [
+        [
+          0.0,
+          335.795010845987
+        ],
+        [
+          83.75,
+          335.25
+        ],
+        [
+          218.75,
+          332.5
+        ],
+        [
+          335.5,
+          329.75
+        ],
+        [
+          468.25,
+          324.5
+        ],
+        [
+          512.0,
+          322.76461377870555
+        ]
+      ],
+      "shape_type": "linestrip",
+      "flags": {},
+      "group_id": null
+    }
+  ],
+  "imagePath": "05-89吴越_p05_03.jpg",
+  "imageData": null,
+  "imageHeight": 512,
+  "imageWidth": 512
+}
