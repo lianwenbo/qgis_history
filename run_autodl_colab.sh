@@ -12,7 +12,7 @@ BATCH_SIZE=16
 LR=1e-4
 IMG_SIZE=512
 NUM_WORKERS=2
-LOG_DIR="runs/${TIMESTAMP}"
+LOG_DIR="/root/tf-logs/${TIMESTAMP}"
 
 echo "📋 训练配置"
 echo "------------------------------------------------------------"
@@ -73,6 +73,6 @@ echo "   模型保存: $MODEL_PATH"
 echo "   TensorBoard: $LOG_DIR"
 echo ""
 echo "📊 查看 TensorBoard:"
-echo "   tensorboard --logdir runs --port 6006 --bind_all"
-echo "   然后在 AutoDL 控制台开放 6006 端口访问"
+echo "   tensorboard --logdir /root/tf-logs --port 6006 --bind_all"
+echo "   AutoDL 控制台 → 自定义服务 → 6006 端口"
 echo "=" * 60
