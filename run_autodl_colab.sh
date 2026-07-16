@@ -5,7 +5,8 @@ echo "=" * 60
 echo ""
 
 DATA_DIR="map_line_dataset/patch_data"
-MODEL_PATH="models/unet_map_lines_autodl_colab.pth"
+TIMESTAMP=$(date '+%Y%m%d_%H%M%S')
+MODEL_PATH="models/unet_map_lines_autodl_colab_${TIMESTAMP}.pth"
 EPOCHS=30
 BATCH_SIZE=16
 LR=1e-4
