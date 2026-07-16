@@ -6,7 +6,6 @@ Colab 训练脚本 — 用于 Google Colab / CUDA 环境
     python colab_train.py [--epochs 30] [--batch_size 16] [--lr 1e-4]
 """
 
-import os
 import sys
 import time
 import argparse
@@ -15,6 +14,7 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 from torch.utils.data import DataLoader
+from torch.utils.tensorboard import SummaryWriter
 
 
 def check_environment():
@@ -56,6 +56,7 @@ def main():
     parser.add_argument('--lr', type=float, default=1e-4, help='学习率')
     parser.add_argument('--img_size', type=int, default=512, help='输入图像尺寸')
     parser.add_argument('--num_workers', type=int, default=2, help='DataLoader worker数')
+    parser.add_argument('--log_dir', type=str, default='runs', help='TensorBoard 日志目录')
     args = parser.parse_args()
     
     device = check_environment()
@@ -107,6 +108,10 @@ def main():
     print(f"\n🏋️  开始训练 ({args.epochs} epochs)")
     print("-" * 60)
     
+    writer = SummaryWriter(log_dir=args.log_dir)
+    print(f"📊 TensorBoard 日志: {args.log_dir}")
+    print(f"   查看命令: tensorboard --logdir {args.log_dir} --port 6006")
+    
     best_loss = float('inf')
     start_time = time.time()
     loss_history = []
@@ -138,6 +143,8 @@ def main():
             
             total_loss += loss.item()
             num_batches += 1
+            global_step = epoch * len(dataloader) + batch_idx
+            writer.add_scalar('Loss/batch', loss.item(), global_step)
             
             if (batch_idx + 1) % 20 == 0 or batch_idx == 0:
                 elapsed = time.time() - epoch_start
@@ -151,6 +158,9 @@ def main():
         avg_loss = total_loss / max(num_batches, 1)
         loss_history.append(avg_loss)
         epoch_time = time.time() - epoch_start
+        
+        writer.add_scalar('Loss/epoch', avg_loss, epoch)
+        writer.add_scalar('LR', scheduler.get_last_lr()[0], epoch)
         
         is_best = avg_loss < best_loss
         if is_best:
@@ -170,6 +180,7 @@ def main():
               f"lr={scheduler.get_last_lr()[0]:.2e}{best_flag}")
     
     total_time = time.time() - start_time
+    writer.close()
     print("\n" + "=" * 60)
     print("🎉 训练完成！")
     print(f"   总耗时: {total_time/60:.1f} 分钟")

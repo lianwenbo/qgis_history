@@ -12,6 +12,7 @@ BATCH_SIZE=16
 LR=1e-4
 IMG_SIZE=512
 NUM_WORKERS=2
+LOG_DIR="runs/${TIMESTAMP}"
 
 echo "📋 训练配置"
 echo "------------------------------------------------------------"
@@ -22,6 +23,7 @@ echo "   Batch size: $BATCH_SIZE"
 echo "   学习率: $LR"
 echo "   图像尺寸: $IMG_SIZE"
 echo "   num_workers: $NUM_WORKERS"
+echo "   TensorBoard: $LOG_DIR"
 echo "   模式: patch_labelme (实时渲染)"
 echo "   优化器: Adam"
 echo "   学习率调度: CosineAnnealingLR"
@@ -49,6 +51,8 @@ echo ""
 mkdir -p models
 mkdir -p output
 
+pip install -q tensorboard 2>/dev/null
+
 echo "🏋️  开始训练..."
 echo ""
 
@@ -59,10 +63,16 @@ python colab_train.py \
     --batch_size "$BATCH_SIZE" \
     --lr "$LR" \
     --img_size "$IMG_SIZE" \
-    --num_workers "$NUM_WORKERS"
+    --num_workers "$NUM_WORKERS" \
+    --log_dir "$LOG_DIR"
 
 echo ""
 echo "=" * 60
 echo "✅ 训练完成！"
 echo "   模型保存: $MODEL_PATH"
+echo "   TensorBoard: $LOG_DIR"
+echo ""
+echo "📊 查看 TensorBoard:"
+echo "   tensorboard --logdir runs --port 6006 --bind_all"
+echo "   然后在 AutoDL 控制台开放 6006 端口访问"
 echo "=" * 60
